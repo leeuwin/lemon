@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<root>
+	<reload>yes</reload> <!--yes means clear timerlist; no not! -->
+	<defaultscriptpath>/home/lim/lemon/sbin/</defaultscriptpath>	
+	<task>
+		<name>uae</name>
+		<interval>10</interval>
+		<repeat>yes</repeat>
+		<timestamp>0</timestamp>
+	</task>
+	<task>
+		<name>sae</name>
+		<interval>17</interval>
+		<repeat>yes</repeat>
+		<timestamp>0</timestamp>
+	</task>
+	<task>
+		<name>tst</name>
+		<interval>43200</interval>
+		<repeat>yes</repeat>
+		<timestamp>0</timestamp>
+	</task>
+	<task>
+		<name>fut</name>
+		<interval>10</interval>
+		<repeat>yes</repeat>
+		<timestamp>1436395823</timestamp>
+	</task>
+</root>

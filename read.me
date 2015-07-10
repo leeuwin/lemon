@@ -1,0 +1,16 @@
+--------                      lemon                     ----------
+
+	lemon is a timer library, which is base on select' timeout,
+and organize by multiset. it's a highly performance cause it wake up
+in excactly time instead of polling. It's also easily break in wait by
+write something to the timer_fd, then the timer_fd is readble as select
+end wait, this greatly supports dynamic configure reload and Adjustment
+timerlist in any way.
+	It include config component which is base on minixml, in the
+deps directory, the package is mxml library, install step:
+	1 ./configure
+	2 make
+	3 make install
+	compile options: -static -lmxml -lpthread
+
+----------------2015/7/9 contact: leeuwin740@hotmail.com------------
